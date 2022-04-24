@@ -1,0 +1,9 @@
+.book-form {
+    &__check {
+        input {
+            &:checked + label {
+                font-weight: 700;
+            }
+        }
+    }
+}
