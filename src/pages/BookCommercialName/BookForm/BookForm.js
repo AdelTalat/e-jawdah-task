@@ -78,7 +78,7 @@ const BookForm = (props) => {
             <p className="fs-6 fw-bold">
                 اختر الكلمة السابقة والكلمة اللاحقة التى ستضاف إلى الاسم التجارى
             </p>
-            <div className="col-3">
+            <div className="col-4">
                 <div className="book-form__commercial-type">
                     <label className="fw-normal mb-10" htmlFor="commercialType">نوع المنشأة "الكلمة السابقة"</label>
                     <select className="form-select" value={enteredCommercialType} onChange={commercialTypeChangeHandler} id="commercialType" required>
@@ -89,7 +89,7 @@ const BookForm = (props) => {
                 </div>
             </div>
 
-            <div className="col-3">
+            <div className="col-4">
                 <div className="book-form__commercial-activity">
                     <label className="fw-normal mb-10" htmlFor="commercialTypeFor">نوع المنشأة "الكلمة اللاحقة"</label>
                     <select className="form-select" id="commercialTypeFor" value={enteredCommercialTypeFor} onChange={commercialTypeForChangeHandler} required>
